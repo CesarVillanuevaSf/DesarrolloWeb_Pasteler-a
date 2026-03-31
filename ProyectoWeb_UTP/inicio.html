@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="postres, pasteles, tartas, Flor de Vainilla, repostería" />
+  <meta name="description"
+    content="Descubre los deliciosos postres de Flor de Vainilla. Pasteles y tartas hechas con amor y los mejores ingredientes." />
+  <title>Flor de Vainilla</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="contenedor">
+
+    <!-- Encabezado -->
+    <header class="banner">
+      <nav class="nav-left">
+        <a href="inicio.html">Inicio</a>
+        <a href="carrito.html">Catálogo</a>
+      </nav>
+
+      <div class="logo-centro">
+        <img src="imágenes/logo.png" alt="Logo Flor de Vainilla" />
+      </div>
+
+      <nav class="nav-right">
+        <a href="sobre_nosotros.html">Sobre Nosotros</a>
+        <a href="preguntas.html">Preguntas Frecuentes</a>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <!-- Menú móvil dentro del header -->
+      <nav class="menu-movil" aria-hidden="true">
+        <a href="inicio.html">Inicio</a>
+        <a href="carrito.html">Catálogo</a>
+        <a href="sobre_nosotros.html">Sobre Nosotros</a>
+        <a href="preguntas.html">Preguntas Frecuentes</a>
+      </nav>
+    </header>
+
+    <nav class="menu-movil" aria-hidden="true">
+      <a href="inicio.html">Inicio</a>
+      <a href="sobre_nosotros.html">Sobre Nosotros</a>
+      <a href="preguntas.html">Preguntas Frecuentes</a>
+    </nav>
+
+    <!-- Portada -->
+    <section class="portada">
+      <div class="carrusel">
+        <div class="slide active">
+          <img src="imágenes/postres.png" alt="Postres variados" />
+        </div>
+        <div class="slide">
+          <img src="imágenes/postres2.jpg" alt="Pastel de Chocolate" />
+        </div>
+        <div class="slide">
+          <img src="imágenes/postres3.jpg" alt="Tarta de Fresa" />
+        </div>
+        <div class="slide">
+          <img src="imágenes/postres4.jpg" alt="Pastel de Vainilla" />
+        </div>
+
+        <!-- Controles -->
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+
+      <h1>Postres</h1>
+      <p class="subtitulo">Postres con amor, sabor y elegancia</p>
+    </section>
+
+    <!-- Productos -->
+    <section class="productos">
+      <div class="producto-3d">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.5/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/a-WJqfU-CvibzD32/scene.splinecode"></spline-viewer>
+        <h2>Modelo de Pastel de Fresa en 3D</h2>
+      </div>
+
+      <div class="producto">
+        <img src="imágenes/pastel_blanco.jpg" alt="Pastel de Vainilla decorado con flores" />
+        <h2>Pastel de Vainilla</h2>
+        <p class="precio">S/45</p>
+      </div>
+
+      <div class="producto">
+        <img src="imágenes/pastel_chocolate.jpg" alt="Pastel de Chocolate con cobertura" />
+        <h2>Pastel de Chocolate</h2>
+        <p class="precio">S/55</p>
+      </div>
+
+      <div class="producto">
+        <img src="imágenes/pastel_fresa.jpg" alt="Tarta de Fresa con crema y frutas" />
+        <h2>Tarta de Fresa</h2>
+        <p class="precio">S/50</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-info">
+        <img src="imágenes/logo.png" alt="Logo Flor de Vainilla" class="footer-logo" />
+        <p>📍 Jr. Los Pinos 245 - Lima, Perú</p>
+        <p>📞 Teléfono: (01) 456-7890</p>
+        <p>✉️ Correo: contacto@flordeVainilla.com</p>
+        <p>🕒 Horario: Lunes a Viernes 8:00 a.m. - 8:00 p.m. / Sábados 9:00 a.m. - 5:00 p.m.</p>
+        <p>© 2025 Flor de Vainilla. Todos los derechos reservados.</p>
+      </div>
+
+      <div class="footer-libro-contenedor">
+        <a href="reclamos.html">
+          <img src="imágenes/Libro de reclamaciones.png" alt="Libro de Reclamaciones" class="footer-libro">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
